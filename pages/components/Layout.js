@@ -12,8 +12,8 @@ export default function Layout({children}) {
         </div>
         <div className='flex min-h-screen'>
         <Nav/>
-          <div className='bg-white w-full'>
-            <div className='bg-blue-900 w-full h-20'></div>
+          <div className='bg-white w-full min-h-screen'>
+            <div className='bg-blue-900 w-full'></div>
             <div className='p-8'>
                {children}
             </div>
