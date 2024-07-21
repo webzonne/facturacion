@@ -8,7 +8,7 @@ export default function Nav() {
     const activeLink = inactiveLink + ' bg-white text-blue-900 rounded-l-lg'
   return (
     <>
-     <aside className={`drop-shadow-md bg-blue-900 text-white p-4 pr-0 w-full fixed md:static md:w-auto md:w-2/10 h-min-screen transition-all`}>
+     <aside className={`h-full min-h-screen drop-shadow-md bg-blue-900 text-white p-4 pr-0 w-full fixed md:static md:w-auto md:w-2/10 transition-all`}>
                 <Link href={'/'} className='flex gap-2 mr-4 p-2'>
                     <span>
                         FACTURACIÓN
